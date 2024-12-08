@@ -34,7 +34,7 @@ export default function Envelope() {
 
       <Drawer open={isOpen} onOpenChange={setIsOpen}>
         <DrawerTrigger />
-        <DrawerContent className="h-screen">
+        <DrawerContent className="h-full">
           <DrawerHeader>
             <DrawerTitle>Dear Boba, also known as Stella</DrawerTitle>
             <DrawerDescription className="text-black text-left mt-5">
