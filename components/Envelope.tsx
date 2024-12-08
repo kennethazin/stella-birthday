@@ -25,7 +25,7 @@ export default function Envelope() {
         onClick={() => setIsOpen(!isOpen)}
       >
         <EnvelopeIcon
-          size={400}
+          size={300}
           className={`stroke-1 transition-transform duration-500 ${
             isOpen ? "rotate-[20deg]" : ""
           }`}

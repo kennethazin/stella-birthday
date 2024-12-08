@@ -20,7 +20,7 @@ export default function BirthdayContent() {
                 Click for a reason why I love you
                 </Button>
             </DialogTrigger>
-            <DialogContent>
+            <DialogContent className="rounded-md">
               <LoveNotes />
             </DialogContent>
           </Dialog>
