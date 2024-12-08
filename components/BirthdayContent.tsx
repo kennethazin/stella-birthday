@@ -10,7 +10,6 @@ import happyBirthdayImage from "../components/assets/happy-birthday.png";
 
 export default function BirthdayContent() {
   return (
-    <div className="flex flex-col">
 
       
       <div className="w-full max-w-4xl p-8 space-y-10">
@@ -27,7 +26,6 @@ export default function BirthdayContent() {
           </Dialog>
         </div>
         <Envelope />
-      </div>
       </div>
   );
 }
