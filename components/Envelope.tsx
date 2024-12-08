@@ -25,8 +25,8 @@ export default function Envelope() {
         onClick={() => setIsOpen(!isOpen)}
       >
         <EnvelopeIcon
-          size={100}
-          className={`transition-transform duration-500 ${
+          size={400}
+          className={`stroke-1 transition-transform duration-500 ${
             isOpen ? "rotate-[20deg]" : ""
           }`}
         />
@@ -37,7 +37,7 @@ export default function Envelope() {
         <DrawerContent className="h-screen">
           <DrawerHeader>
             <DrawerTitle>Dear Boba, also known as Stella</DrawerTitle>
-            <DrawerDescription className="text-black">
+            <DrawerDescription className="text-black text-left mt-5">
               Happy Birthday to the most amazing person in the world! This is a special day and I&apos;m sorry I am not able
               to do anything super fancy (given the funds I have in this time of my life) but I hope this little gesture 
               will make you smile. After all, I&apos;m a software engineer at heart and my heart is yours. Too much of a corny sentence perhaps...
@@ -49,7 +49,7 @@ export default function Envelope() {
               Here&apos;s to another year of love, laughter, and creating beautiful memories together.
               <br /><br />
               With all my love,<br />
-              Your Love ❤️
+              Kenneth
             </DrawerDescription>
           </DrawerHeader>
           <DrawerFooter>
