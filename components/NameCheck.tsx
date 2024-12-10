@@ -31,7 +31,7 @@ export default function NameCheck({ onAuthenticated }: { onAuthenticated: () => 
           type="text"
           value={name}
           onChange={(e) => setName(e.target.value)}
-          className="w-full"
+          className="w-full text-lg"
           placeholder="Enter cat's name..."
         />
         <Button type="submit" className="w-full">
