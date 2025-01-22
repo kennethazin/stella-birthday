@@ -8,7 +8,7 @@ const loveNotes = [
   "The way you HAVE to wear gloves when washing dishes, so cute",
   "The way you encourage me to be the best version of myself",
   "I love how you don't paint so often, but when you do it's mf amazing",
-  "How you always know how to make me fe  git remote set-url origin git@github.com:kennethazin/stella-birthday.gitel better and take care of me when I'm down and how you KNOW when something is off",
+  "How you always know how to make me feel better and take care of me when I'm down and how you KNOW when something is off",
   "How you make me delicious coffee most mornings",
   "How you want this one yoghurt in a small glass jar whenever we go to Tesco",
   "I love when you hold my arm when we're walking",
