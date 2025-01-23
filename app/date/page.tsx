@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/card";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
-
+import { MapPinCheckIcon } from "lucide-react";
 type DateOption = {
   title: string;
   description: string;
@@ -76,15 +76,11 @@ export default function DateOptionPicker() {
           <CardTitle className="text-3xl font-bold text-center">
             Date Options ♥️
           </CardTitle>
-          <CardDescription className="text-center text-lg">
-            Thursday, 23 Jan 2025.
-            <p className="text-sm">
-              {" "}
-              It&apos;s a rainy day today and I know you must be tired from
-              shooting the film yesterday. Thus, I've curated 5 brunch date
-              options for us to choose from. If boba too tired, I will make you
-              lunch at home.
-            </p>
+          <CardDescription className="text-center text-base">
+            Thursday, 23 Jan 2025. It&apos;s a rainy day today and I know you
+            must be tired from shooting the film yesterday. Thus, I've curated 5
+            brunch date options for us to choose from. If boba too tired, I will
+            make you lunch at home.
           </CardDescription>
           <div className="flex items-center justify-center space-x-2 pt-4">
             <Switch
@@ -92,7 +88,7 @@ export default function DateOptionPicker() {
               checked={isBrunch}
               onCheckedChange={setIsBrunch}
             />
-            <Label htmlFor="meal-toggle">{isBrunch ? "Brunch" : "Lunch"}</Label>
+            <Label htmlFor="meal-toggle">{isBrunch ? "Brunch" : ""}</Label>
           </div>
         </CardHeader>
         <CardContent>
@@ -106,6 +102,13 @@ export default function DateOptionPicker() {
               >
                 <span className="font-bold">{option.title}</span>
                 <span className="text-sm">{option.description}</span>
+                <a
+                  className="text-xs underline items-center flex"
+                  href={option.link}
+                  target="_blank"
+                >
+                  Google Maps <MapPinCheckIcon size={16} />
+                </a>
               </Button>
             ))}
           </div>
